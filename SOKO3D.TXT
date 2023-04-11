@@ -1,0 +1,112 @@
+
+                   SOKOBAN 3D - A SIMPLE GAME BY LOGOS CO.
+
+    A 3D version of a famous game SOKOBAN aka DIG DOCKER, PUSHER etc.
+
+              This version is absolutely FREEWARE
+      You are granted permission and highly encouraged to give away
+          copies of this game provided you do not modify
+                     the distribution package
+
+              This game is distributed AS IS, no warranty of
+        any kind is provided nor any responsibility is assumed for
+            any potential damage that may arise during usage
+                of this program including HDD formatting,
+              CPU blowing up and/or computer explosion :-)
+
+
+Minimum requirements: 486DX/66 4MB RAM, Windows 95/NT
+
+
+    IMPORTANT NOTICE. Since chances are low that you read any further :-)
+please notice that you have to HOLD SPACE BAR to move boxes (see the
+Game Controls section of this file).
+
+
+1. Game Rules
+-------------
+    To complete the level you must push each of the boxes into the storage
+area. The storage area is marked by different color of the floor. You cannot
+push more than one box at a time. You cannot pull boxes, you can only push.
+
+2. Game startup
+---------------
+
+Files:
+	SOKO3D.EXE - executable file
+	SOKO3D.IMG - Graphics data for Sokoban 3D
+	SOKO3D.DAT - default levels for Sokoban 3D
+	SOKO3D.TXT - this file
+
+Command line format:
+        SOKO3D          - start Sokoban 3D with default levels (SOKO3D.DAT)
+        SOKO3D file.dat - start Sokoban 3D with custom levels
+
+3. Game controls
+----------------
+
+    F7 - windowed mode
+    F8 - fullscreen mode (may not work if card refuses to initialize 320x200)
+
+Play mode:
+    FORWARD - move forward (use together with SPACE to push boxes)
+    BACK - move back
+    LEFT - turn left
+    RIGHT - turn right
+    SPACE - push mode when moving forward
+    ALT - strafe mode
+    PGUP - look down
+    PGDN - look up
+    HOME or END - center view
+    TAB - enter map mode
+    F1 - restart level
+    F2 - previous level
+    F3 - next level
+    F4 - go to level (you are asked to enter the level number)
+    BACKSPACE - undo last box move
+    ESC - quit game
+
+Map mode:
+    +(white) - increase detail
+    -(white) - reduce detail
+    TAB or ESC - back to play mode
+
+4. Level format
+---------------
+    You are given the possibility to design your own levels.
+    The .dat file is a usual text file that can be edited with any plain text
+editor. The format of the .dat file should be obvious from looking at any
+example .dat file. Nevertheless a few notes:
+    3.1. The level dimensions are currently limited to 200x200 (could you dare
+         to design such a huge level?)
+    3.2. Level numbering must be (001) to maximum (999). The number of each
+         level must equal the number of the previous level plus 1.
+    3.3. Do not use optional spaces and empty lines in .dat file. In fact
+         there is no such option.
+    3.4. Map legend: <space> - empty cell, # - wall, $ - box, . - target cell,
+         * - box on target cell, @ - player ini pos.
+
+5. Known bugs
+-------------
+    1. In fullscreen mode palette sometimes not correctly restored when
+switching back to Soko3D from some other app. The workaround for this
+problem is to switch to Windowed mode then back to fullscreen.
+
+6. Acknowledgements
+-------------------
+    .dat file format is .lev file format of WinSoko by Phade Software (much
+compatible with many other versions of Sokoban)
+    soko3d.dat contains levels from WinSoko
+
+    ----------------------------------------------------------------------
+  |                                                                        |
+  |       Welcome to visit our WWW page at http://logos.cyber.mephi.ru     |
+  |                                                                        |
+    ----------------------------------------------------------------------
+
+              Send your suggestions to zav@logos.cyber.mephi.ru
+
+                               HAVE FUN!
+
+
+
